@@ -38,3 +38,32 @@ h1 {
     clear: both;
     display: table;
 }
+
+main {
+    width: 100;
+    min-height: 350px;
+}
+
+main > aside {
+    float: left;
+    width: 20%;
+    background-color: rgb(16, 236, 252);
+}
+
+main > section {
+    float: left;
+    width: 80%;
+    padding: 20px;
+    background-color: rgb(12, 221, 248);
+    color: black;
+}
+
+aside select {
+    width: 100%;
+}
+
+aside hr {
+    border: none;
+    border-bottom: 1px solid rgb(8, 227, 243);
+    padding-bottom: 5px;
+}
