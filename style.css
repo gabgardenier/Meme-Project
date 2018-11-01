@@ -47,14 +47,14 @@ main {
 main > aside {
     float: left;
     width: 20%;
-    background-color: green;
+    background-color: rgb(16, 236, 252);
 }
 
 main > section {
     float: left;
     width: 80%;
     padding: 20px;
-    background-color: lightblue;
+    background-color: rgb(12, 221, 248);
     color: black;
 }
 
@@ -64,6 +64,6 @@ aside select {
 
 aside hr {
     border: none;
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid rgb(8, 227, 243);
     padding-bottom: 5px;
 }
