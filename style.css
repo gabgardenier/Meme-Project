@@ -57,7 +57,7 @@ main > section {
     float: left;
     width: 80%;
     padding: 20px;
-    background-color: lightblue;
+    background-color: rgb(12, 221, 248);
     color: black;
 }
 
@@ -79,4 +79,6 @@ footer {
 footer p {
     padding: 10px;
     margin: 0;
+    border-bottom: 1px solid rgb(8, 227, 243);
+    padding-bottom: 5px;
 }
