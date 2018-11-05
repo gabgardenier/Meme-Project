@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Freshman Memes</title>
+
+    <title>Freshman's Memes</title>
     <link href="normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chivo" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 
     <script id="meme-template" type="text/handlebars-v4">
-
+    <li class="product" data-categories="{{categories}}" data-id="{{meme_id}}">
+        <h4>{{title}}</h4>
+        <img src="images/{{image}}" alt="{{title}}">
+    </li>
     </script>
-
 </head>
 <body>
     <div id="container">
@@ -26,26 +30,22 @@
         </header>
         <main>
             <aside>
-                <h3>Dank Memes</h3>
-                <select id="Dank Memes-filter">
-                    <option value="">--Filter by Dank Memes--</option>
-                </select>
-                <hr><h3>Sport Memes</h3>
-                <select id="Sport Memes-filter">
-                    <option value="">--Filter by sport Memes--</option>
-                </select>
-                <h3>Fortnite Memes</h3>
-                <select id="Fortnite Memes-filter">
-                    <option value="">--Filter by Fortnite Memes--</option>
+                <h3>Meme Categories</h3>
+                <select id="category-filter">
+                    <option value="">--filter by categorie--</option>
                 </select>
             </aside>
+            <section>
+                <h3>Memes</h3>
+                <ul id="Memes-listings">
+                </ul>
+            </section>
         </main>
         <footer>
             <p>Copyright &copy; 2018 - Freshman Memes</p>
         </footer>
     </div>
-    <script src></script>
-    <script src></script>
-    <script src></script>
+    <script src="js/memes.js"></script>
+    <script src="js/meme-constructor.js"></script>
 </body>  
 </html>
