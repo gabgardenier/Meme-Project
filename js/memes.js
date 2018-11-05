@@ -72,39 +72,39 @@ var memes = [
         product_id:"1012"
     },
     {
-        image:"Bro-you-even-lift.png",
-        title:"jacked bird",         
-        categories:["Dank memes","Classic"],
+        image:"peyton Manning.jpg",
+        title:"Manning forehead",         
+        categories:["Dank memes","Classic","sports"],
         product_id:"1013"
     },
     {
-        image:"Bro-you-even-lift.png",
-        title:"jacked bird", "Classic", 
-        categories:["Dank memes","Classic"],
+        image:"spongebob.jpg",
+        title:"spongebob", 
+        categories:["Dank memes","Classic","spongebob"],
         product_id:"1014"
     },
     {
-        image:"Bro-you-even-lift.png",
-        title:"jacked bird",  
-        categories:["Dank memes","Classic"],
+        image:"trump.png",
+        title:"Trump",  
+        categories:["Dank memes","Classic","Fortnite"],
         product_id:"1015"
     },
     {
-        image:"Bro-you-even-lift.png",
-        title:"jacked bird",  
-        categories:["Dank memes","Classic"],
+        image:"Reff.jpg",
+        title:"football",  
+        categories:["Dank memes","Classic","football"],
         product_id:"1016"
     },
     {
-        image:"Bro-you-even-lift.png",
-        title:"jacked bird", 
+        image:"Afro.jpg",
+        title:"Afro", 
         categories:["Dank memes","Classic"],
         product_id:"1017"
     },
     {
-        image:"Bro-you-even-lift.png",
-        title:"jacked bird", 
-        categories:["Dank memes","Classic"],
+        image:"Arnold.jpg",
+        title:"Arnold", 
+        categories:["Dank memes","Classic","Fortnite"],
         product_id:"1018"
     },
     {
