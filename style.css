@@ -57,18 +57,12 @@ main > section {
     float: left;
     width: 80%;
     padding: 20px;
-    background-color: rgb(12, 221, 248);
+    background-color: lightblue;
     color: black;
 }
 
 aside select {
     width: 100%;
-}
-
-aside hr {
-    border: none;
-    border-bottom: 1px solid skyblue;
-    padding-bottom: 3px;
 }
 
 footer {

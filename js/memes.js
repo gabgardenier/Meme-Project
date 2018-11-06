@@ -79,7 +79,7 @@ var memes = [
     },
     {
         image:"Bro-you-even-lift.png",
-        title:"jacked bird", "Classic", 
+        title:"Classic", 
         categories:["Dank memes","Classic"],
         product_id:"1014"
     },
