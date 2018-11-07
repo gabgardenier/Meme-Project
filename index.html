@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Freshman Memes</title>
+
+    <title>Freshman's Memes</title>
     <link href="normalize.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Chivo" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 
     <script id="meme-template" type="text/handlebars-v4">
-    <li class="product" data-categories="{{categories}}" data-id="{{meme_id}}">
+    <li class="meme" data-categories="{{categories}}" data-id="{{meme_id}}">
         <h4>{{title}}</h4>
         <img src="images/{{image}}" alt="{{title}}">
     </li>
     </script>
-
 </head>
 <body>
     <div id="container">
@@ -32,7 +32,7 @@
             <aside>
                 <h3>Meme Categories</h3>
                 <select id="category-filter">
-                    <option value="">--filter by categorie--</option>
+                    <option value="">--Filter By Category--</option>
                 </select>
             </aside>
             <section>
@@ -49,5 +49,6 @@
     <script src="handlebars-v4.0.12.js"></script>
     <script src="js/memes.js"></script>
     <script src="js/meme-constructor.js"></script>
+    <script src="js/easteregg.js"></script>
 </body>  
 </html>
