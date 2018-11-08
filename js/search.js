@@ -2,11 +2,11 @@
 
 $('#search').on('submit', function(event) {
     event.preventDefault();
-    $('.product').hide();
+    $('.meme').hide();
     var lookup = $('#lookup').val().toLowerCase();
-    product_list.forEach(function(product) {
-        if(product.title.toLowerCase().indexOf(lookup) >= 0) {
-            $(`.product[data-id="${product.product_id}"]`).fadeIn();
+    meme_list.forEach(function(meme) {
+        if(meme.title.toLowerCase().indexOf(lookup) >= 0) {
+            $(`.meme[data-id="${meme.meme_id}"]`).fadeIn();
         }
     });
 });
