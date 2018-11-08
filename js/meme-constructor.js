@@ -20,5 +20,5 @@ memes.foreach(function(meme){
 });
 
 meme_list.foreach(function(meme){
-    $('#product-listings').append(meme.toHtml());
+    $('#Memes-listings').append(meme.toHtml());
 });
