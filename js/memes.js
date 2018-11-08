@@ -30,7 +30,7 @@ var memes = [
         meme_id:"1005"
     },
     {
-        image:"Buzz.jpg",
+        image:"Buzzz.jpg",
         title:"moth",
         categories:["Dank memes","Classic"],
         meme_id:"1006"
@@ -131,4 +131,4 @@ var memes = [
         categories:["Dank memes","Classic"],
         meme_id:"1024"
     },
-],
+];
