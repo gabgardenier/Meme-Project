@@ -15,10 +15,10 @@ Meme.prototype.toHtml = function(){
     return template(this);
 };
 
-memes.foreach(function(meme){
+memes.forEach(function(meme){
     meme_list.push(new Meme(meme));
 });
 
-meme_list.foreach(function(meme){
+meme_list.forEach(function(meme){
     $('#Memes-listings').append(meme.toHtml());
 });
