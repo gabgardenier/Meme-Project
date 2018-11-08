@@ -108,18 +108,6 @@ var memes = [
         meme_id:"1018"
     },
     {
-        image:"Bro-you-even-lift.png",
-        title:"jacked bird", 
-        categories:["Dank memes", "Classic"],
-        meme_id:"10019"
-    },
-    {
-        image:"Bro-you-even-lift.png",
-        title:"jacked bird",
-        categories:["Dank memes","Classic"],
-        meme_id:"1020"
-    },
-    {
         image:"Small-loan.jpg",
         title:"Money memes",  
         categories:["Dank memes","Classic"],
