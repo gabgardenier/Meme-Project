@@ -6,14 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>Freshman's Memes</title>
-    <link href="normalize.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Chivo" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 
     <script id="meme-template" type="text/handlebars-v4">
-    <li class="product" data-categories="{{categories}}" data-id="{{meme_id}}">
-        <h4>{{title}}</h4>
+    <li class="meme" data-categories="{{categories}}" data-id="{{meme_id}}">
         <img src="images/{{image}}" alt="{{title}}">
+        <h4>{{title}}</h4>
     </li>
     </script>
 </head>
@@ -45,6 +44,8 @@
             <p>Copyright &copy; 2018 - Freshman Memes</p>
         </footer>
     </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/handlebars-v4.0.12.js"></script>
     <script src="js/memes.js"></script>
     <script src="js/meme-constructor.js"></script>
     <script src="js/easteregg.js"></script>

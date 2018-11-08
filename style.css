@@ -3,14 +3,14 @@
 }
 
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: whitesmoke;
     color: black;
     font-family: 'Chivo', sans-serif;
 }
 
 #container {
     width: 90%;
-    background-color:rgb(114, 114, 114);
+    background-color:lightblue;
     margin: 0 auto;
 }
 
@@ -48,8 +48,8 @@ main {
 main > aside {
     float: left;
     width: 20%;
-    padding:15px;
-    background-color: rgb(221, 255, 29);
+    padding: 15px;
+    background-color: lightblue;
     color:black;
 }
 
@@ -57,7 +57,7 @@ main > section {
     float: left;
     width: 80%;
     padding: 20px;
-    background-color: rgb(114, 112, 112);
+    background-color: lightblue;
     color: black;
 }
 
@@ -65,20 +65,14 @@ aside select {
     width: 100%;
 }
 
-aside hr {
-    border: none;
-    border-bottom: 1px solid rgb(0, 0, 0);
-    padding-bottom: 3px;
-}
-
 footer {
-    background-color: rgb(182, 255, 46);
+    background-color: white;
     text-align: center;
 }
 
 footer p {
     padding: 10px;
     margin: 0;
-    border-bottom: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid lightblue;
     padding-bottom: 5px;
 }
