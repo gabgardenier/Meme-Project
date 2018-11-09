@@ -60,8 +60,8 @@ var memes = [
         meme_id:"1010"
     },
     {
-        image:"maxresdefault",
-        title:"Terriost",
+        image:"maxresdefault.jpg",
+        title:"Terrorist",
         categories: ["Dank memes","Classic"],
         meme_id:"1011"
     },
@@ -124,11 +124,5 @@ var memes = [
         title:"Ironman",
         categories:["Dank memes","Classic"],
         meme_id:"1023"
-    },
-    {
-        image:"Old-school.jpg",
-        title:"School Memes",
-        categories:["Dank memes","Classic"],
-        meme_id:"1024"
     },
 ];
