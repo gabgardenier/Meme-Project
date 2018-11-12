@@ -71,8 +71,8 @@ var memes = [
         stars:3
     },
     {
-        image:"maxresdefault",
-        title:"Terriost",
+        image:"maxresdefault.jpg",
+        title:"Terrorist",
         categories: ["Dank memes","Classic"],
         meme_id:"1011",
         stars: 2
