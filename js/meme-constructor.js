@@ -7,6 +7,7 @@ var Meme = function(meme){
    this.title = meme.title;
     this.categories = meme.categories;
     this.meme_id = meme.meme_id;
+    this.stars = meme.stars;
 };
 
 Meme.prototype.toHtml = function(){
