@@ -88,7 +88,8 @@ var memes = [
         image:"peyton Manning.jpg",
         title:"Manning forehead",         
         categories:["Dank memes","Classic","sports"],
-        meme_id:"1013"
+        meme_id:"1013",
+        stars: 4
     },
     {
         image:"spongebob.jpg",
@@ -136,7 +137,8 @@ var memes = [
         image:"White-dude.jpg",
         title:"Cracker",  
         categories:["Dank memes","Classic"],
-        meme_id:"1022"
+        meme_id:"1022",
+        stars: 5
     },
     {
         image:"Tony-Stark.png",
